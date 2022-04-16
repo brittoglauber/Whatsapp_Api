@@ -1,0 +1,39 @@
+{
+  "name": "master-class-08",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "nodemon",
+    "start": "npm-run build && node build/index.js",
+    "test": "karma start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.13",
+    "@types/jasmine": "^4.0.3",
+    "@types/node": "^17.0.21",
+    "jasmine-core": "^4.1.0",
+    "karma": "^6.3.18",
+    "karma-chrome-launcher": "^3.1.1",
+    "karma-jasmine": "^5.0.0",
+    "karma-webpack": "^5.0.0",
+    "nodemon": "^2.0.15",
+    "rimraf": "^3.0.2",
+    "ts-loader": "^9.2.8",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "libphonenumber-js": "^1.9.51",
+    "venom-bot": "https://github.com/orkestral/venom/releases/download/nightly/venom-bot-nightly.tgz"
+  }
+}
